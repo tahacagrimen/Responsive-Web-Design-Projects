@@ -1,0 +1,47 @@
+main {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#img-div {
+  width: 100%;
+  height: auto;
+  margin: auto auto;
+  background-color: #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  max-width: 500px;
+  max-height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 20px 20px;
+}
+
+#image-caption {
+  margin: 20px 20px;
+}
+
+section {
+  text-align: left;
+  max-width: 800px;
+  margin: auto auto;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+.footer {
+  max-width: 1000px;
+  height: auto;
+  margin: auto auto;
+  background-color: #8aa6a3;
+}

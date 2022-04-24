@@ -1,0 +1,93 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/millennial-asia-businessmen-businesswomen-meeting-brainstorming-ideas-about-new-paperwork-project-colleagues-working-together-planning-success-strategy-enjoy-teamwork-small-modern-night-office_7861-2386.jpg?t=st=1650807818~exp=1650808418~hmac=3e415b711d426a362ac9310bac9fa99c8364ef90cce038266e9f1feccedfa531&w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 520;
+  line-height: 2;
+  color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.form-control {
+  display: block;
+}
+
+.container {
+  margin: 2vh 1vw 2vh 1vw;
+  background-color: white;
+  max-width: 550px;
+  height: auto;
+  border-radius: 15px;
+  background-color: #404040;
+  opacity: 0.8;
+  box-shadow: 50px 50px 50px 50px rgb(0, 0, 0);
+}
+
+#form-group,
+.form-group {
+  margin: 10px 10px;
+}
+
+.form-control {
+  width: 99%;
+}
+
+#submit {
+  width: 90%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  display: block;
+  background-color: #0d0d0d;
+  border-radius: 11px;
+  color: #f2f2f2;
+  transition: 0.2;
+}
+
+#submit:hover {
+  transform: scale(1.1);
+}
+
+#sozlesme {
+  resize: none;
+}
+
+textarea {
+  float: left;
+  width: 99%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  height: 1.5rem;
+}
+
+.input-radio,
+.input-checkbox {
+  height: 1rem;
+}
+
+p {
+  margin: 0 0 0 0;
+}

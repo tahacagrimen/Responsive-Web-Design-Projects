@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Tasarım Programı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h3 id="title">ABC Tasarım Programı</h3>
+            <p id="description">Kurulum ve Satış Sözleşmesi</p>
+        </header>
+        <form id="survey-form">
+            <div id="form-group">
+                <label for="name" id="name-label">İsim</label>
+                <input class="form-control" type="text" name="name" id="name" required placeholder="İsminizi giriniz">
+            </div>
+            <div id="form-group">
+                <label for="surname" id="surname-label">Soyisim</label>
+                <input class="form-control" type="text" name="surname" id="surname" required
+                    placeholder="Soyisminizi giriniz">
+            </div>
+            <div id="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required
+                    placeholder="Emailinizi giriniz">
+            </div>
+            <div id="form-group">
+                <label for="number" id="number-label">Yaş</label>
+                <input type="number" name="number" id="number" required placeholder="Yaşınızı giriniz" max="99" min="18"
+                    class="form-control">
+            </div>
+            <div id="form-group">
+                <label for="picture" id="pic-label">Fotoğraf Ekle</label>
+                <input style="background-color: inherit;" type="file" name="picture" id="picture" class="form-control">
+            </div>
+            <div id="form-group">
+                <label for="date" id="date-label">Sektöre Giriş Tarihi</label>
+                <input type="date" name="date" id="date" required class="form-control">
+            </div>
+            <div class="form-group">
+                <p>Sektör Deneyimi</p>
+                <label>
+                    <input name="user-recommend" value="1-3" type="radio" class="input-radio" checked />1-3
+                    Yıl</label>
+                <label>
+                    <input name="user-recommend" value="3-6" type="radio" class="input-radio" />3-6 Yıl</label>
+
+                <label><input name="user-recommend" value="6-10" type="radio" class="input-radio" />6-10 Yıl</label>
+            </div>
+            <div class="form-group">
+                <p>
+                    Programlama Dilleri
+                </p>
+
+                <label><input name="prefer" value="python" type="checkbox" class="input-checkbox" />Python</label>
+                <label>
+                    <input name="prefer" value="java" type="checkbox" class="input-checkbox" />Java</label>
+                <label><input name="prefer" value="c" type="checkbox" class="input-checkbox" />C</label>
+                <label><input name="prefer" value="javascript" type="checkbox"
+                        class="input-checkbox" />JavaScript</label>
+                <label><input name="prefer" value="cplus" type="checkbox" class="input-checkbox" />C++</label>
+                <label><input name="prefer" value="react" type="checkbox" class="input-checkbox" />React</label>
+                <label><input name="prefer" value="html" type="checkbox" class="input-checkbox" />Html</label>
+                <label><input name="prefer" value="css" type="checkbox" class="input-checkbox" />Css</label>
+            </div>
+            <div class="form-group">
+                <p>Yaşadığınız bölge?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Bölgeyi seçiniz</option>
+                    <option value="student">Marmara</option>
+                    <option value="job">Ege</option>
+                    <option value="learner">İç Anadolu</option>
+                    <option value="preferNo">Karadeniz</option>
+                    <option value="other">Akdeniz</option>
+                    <option value="other">Güney Doğu</option>
+                    <option value="other">Doğu Anadolu</option>
+                </select>
+            </div>
+            <div id="form-group">
+                <p>Sözleşme Kopyası</p>
+                <textarea disabled name="sozlesme" id="sozlesme" cols="50" rows="10" style="background-color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quod fugiat laborum atque consequatur eius modi eligendi commodi dicta, nihil illo quam dolorem excepturi alias, hic ex vitae ad explicabo harum reiciendis suscipit sit natus. Accusantium optio rem nam voluptatibus at earum fugit, cumque magni asperiores nisi repellat temporibus accusamus quas veniam praesentium minima et deleniti. Minus inventore impedit tempora porro dolores. Repellendus ea qui esse excepturi? Culpa, aspernatur nam ea earum, quos fuga distinctio suscipit iure doloribus iste sequi officiis voluptates qui doloremque. Hic, ipsa labore. Libero vero accusantium, autem debitis, quo ex earum, et laudantium nihil explicabo sequi!
+                </textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Formu Gönder
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
