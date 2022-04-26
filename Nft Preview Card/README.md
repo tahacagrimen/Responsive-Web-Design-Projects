@@ -1,1 +1,1 @@
-![Nft Preview Card](https://imgyukle.com/f/2022/04/26/RXPwYt.gif || width=500px))
+![Nft Preview Card](https://imgyukle.com/f/2022/04/26/RXPwYt.gif|width=500px))
