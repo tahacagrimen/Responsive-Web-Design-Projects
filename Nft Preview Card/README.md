@@ -1,1 +1,1 @@
-![Nft Preview Card](./Responsive-Web-Design-Projects/Nft%20Preview%20Card/images/Animation.gif))
+![Nft Preview Card](https://imgyukle.com/f/2022/04/26/RXPwYt.gif || width=500px))
