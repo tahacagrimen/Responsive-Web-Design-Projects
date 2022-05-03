@@ -2,8 +2,8 @@
 
 ## Desktop Design
 
-![Product Landing Page](https://r.resimlink.com/IMU0r.gif)
+![Product Landing Page](https://cdn.discordapp.com/attachments/964583729232236594/971189411909873704/11.gif)
 
 ## Responsive Design
 
-![Product Landing Page](https://r.resimlink.com/FYTgAPVeprys.gif)
+![Product Landing Page](https://cdn.discordapp.com/attachments/964583729232236594/971196133596594226/22_1.gif)
