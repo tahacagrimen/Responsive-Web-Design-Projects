@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SOL TARAF -->
+    <h2 class="main-text">Checkout</h2>
+    <div id="container">
+        <div id="container-main">
+            <div id="container-1">
+                <form action="">
+                    <h3>Contact information</h3>
+                    <label for="email">Email</label>
+                    <div class="input input-email">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <label for="tel">Phone</label>
+                    <div class="input input-tel">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="tel" name="tel" id="tel" placeholder="Enter your phone">
+                    </div>
+                    <br>
+                    <br>
+                    <h3>Shipping adress</h3>
+                    <label for="name">Full Name</label>
+                    <div class="input input-name">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="text" name="name" id="name" placeholder="Enter your full name...">
+                    </div>
+                    <label for="adress">Adress</label>
+                    <div class="input input-adress">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="text" name="adress" id="adress" placeholder="Enter your adress...">
+                    </div>
+                    <label for="city">City</label>
+                    <div class="input input-city">
+                        <ion-icon name="business-outline"></ion-icon>
+                        <input type="text" name="city" id="city" placeholder="Enter your city...">
+                    </div>
+                    <div class="input-country">
+                        <ul>
+                            <li>
+                                <label for="county">Country</label>
+                            </li>
+                            <li>
+                                <div class="input input-country">
+                                    <ion-icon name="earth-outline"></ion-icon>
+                                    <select name="country" id="country">
+                                        <option value="america">USA</option>
+                                        <option value="uk">UK</option>
+                                        <option value="germany">Germany</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <label for="country">Post Code</label>
+
+                            </li>
+                            <li>
+                                <div class="input input-post">
+                                    <ion-icon name="earth-outline"></ion-icon>
+                                    <input type="number" placeholder="Enter your postal code...">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="agree" id="agree">
+                        <p>See this information next time</p>
+                    </div>
+                    <input type="submit" value="Continue">
+                </form>
+            </div>
+
+            <!-- SOL TARAF -->
+
+            <div id="container-2">
+                <div class="item-1">
+                    <img src="https://aaron-clarusway.github.io/form/IMG/photo1.png" alt="" class="item-1-img">
+                    <div class="item-1-text">
+                        <div>
+                            <h4 class="item-title">Vintage Backbag</h4>
+                            <h4 class="price-text">$54.99<span class="price-overline"><del>$94.99</del></span></h4>
+                        </div>
+                        <div class="count">
+                            <ion-icon name="remove-outline"></ion-icon>
+                            <p>1</p>
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-2">
+                    <img src="https://aaron-clarusway.github.io/form/IMG/photo2.png" alt="" class="item-2-img">
+                    <div class="item-2-text">
+                        <div>
+                            <h4 class="item-title">Levi Shoes</h4>
+                            <h4 class="price-text">$74.99<span class="price-overline"><del>$124.99</del></span></h4>
+                        </div>
+                        <div class="count">
+                            <ion-icon name="remove-outline"></ion-icon>
+                            <p>1</p>
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="yazi">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+                <div class="yazi">
+                    <p>Total</p>
+                    <p>$148.98</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
