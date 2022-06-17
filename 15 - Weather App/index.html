@@ -6,35 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="card">
-        <div class="search">
-            <input type="text" class="search-bar">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+<body class="flex justify-center items-center h-screen">
+    <div class="card flex justify-center items-center flex flex-col w-80 h-30 p-5 rounded-2xl bg-slate-300 shadow-xl">
+        <div
+            class="search flex justify-between items-center w-full h-9 p-3 mb-3 rounded-xl transition ease-in-out delay-150 bg-blue-400 hover:-translate-y-0 hover:scale-105 hover:bg-indigo-400 duration-300 ... shadow-md ">
+            <input type="text" class="search-bar w-10/12 h-7 mr-4 outline-none bg-inherit placeholder:text-white"
+                placeholder="City...">
+            <button class="search button"><i class="fa-solid fa-magnifying-glass text-xl text-white"></i></button>
         </div>
-        <div class="weather">
-            <h2 class="city">İstanbul</h2>
-            <h3 class="temp">25°C</h3>
-            <img src="" alt="" class="icon">
-            <div class="desc">Cloudy</div>
-            <div class="humidity">Humiditiy: 60%</div>
-            <div class="wind">Wind: 2km/h</div>
+        <div
+            class="weather loading bg-blue-400/75 w-full h-full rounded-xl p-3 flex items-start justify-between flex-col shadow-md">
+            <h2 class="city text-4xl font-bold">İstanbul</h2>
+            <div class="flex items-center justify-between w-full">
+                <div>
+                    <h3 class="temp text-2xl font-medium">25°C</h3>
+                    <div class="desc font-medium">Cloudy</div>
+                </div>
+                <img src="" alt="" class="icon">
+            </div>
+            <div>
+                <div class="humidity font-medium">Humiditiy: 60%</div>
+                <div class="wind font-medium">Wind: 2km/h</div>
+            </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
     <script src="app.js"></script>
 </body>
 
